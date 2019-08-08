@@ -1,0 +1,24 @@
+{
+  "name": "personal-blog-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaosToOrder/Personal-Blog-App-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaosToOrder/Personal-Blog-App-Server/issues"
+  },
+  "homepage": "https://github.com/ChaosToOrder/Personal-Blog-App-Server#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
