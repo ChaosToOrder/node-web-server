@@ -80,7 +80,7 @@ app.use(upload_img.prefix, express.static(require('./src/utils/upload').uploadFo
  * 路由模块
  */
 app.use('/user', require("./src/router/user.js")) // 用户
-app.use('/mall', require("./src/router/mall.js")) // 商品
+app.use('/article', require("./src/router/article.js")) // 文章
 app.use('/upload', require("./src/router/upload.js")) // 上传
 
 // eyJhbGc6IkpXVCJ9.eyJpc3MiOiJCIsImVzg5NTU0NDUiLCJuYW1lnVlfQ.SwyHTf8AqKYMAJc

@@ -24,13 +24,13 @@ module.exports = function () {
  */
 let mysql = require('mysql');
 let connection = mysql.createConnection({
-    host: 'localhost',
-    port: 3306,
-    // host: 'cdb-4pems80c.cd.tencentcdb.com',
-    // port: '10052',
+    // host: 'localhost',
+    // port: 3306,
+    host: 'cdb-4pems80c.cd.tencentcdb.com',
+    port: '10052',
     user: 'root',
     password: 'changein2017',
-    database: 'mall'
+    database: 'blog'
 });
 
 connection.connect(() => {
