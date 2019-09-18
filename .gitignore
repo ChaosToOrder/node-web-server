@@ -1,6 +1,9 @@
 .DS_Store
 node_modules
+/data
 /dist
+/dist_cms
+/src/sqlite3/sqlite3
 
 # local env files
 .env.local
